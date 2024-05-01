@@ -14,9 +14,24 @@ MICROSOFT SUBSCRIPTION: https://answers.microsoft.com/pt-br/msoffice/forum/all/o
 GOVERNANCE AND COMPLIANCE: https://learn.microsoft.com/pt-br/compliance/assurance/assurance-governance  
 UNIDADES ADMINISTRATIVAS: https://learn.microsoft.com/PT-BR/entra/identity/role-based-access-control/administrative-units
 
-SSPR NO ENTRA ID:
+SSPR NO ENTRA ID
 https://www.youtube.com/watch?v=rA8TvhNcCvQ
 https://learn.microsoft.com/pt-br/entra/identity/authentication/tutorial-enable-sspr
+
+
+GRUPOS DE GERENCIAMENTO: https://learn.microsoft.com/pt-br/azure/governance/management-groups/overview
+SKUs VM: https://learn.microsoft.com/pt-br/azure/virtual-machines/sizes
+AZURE POLICY: https://learn.microsoft.com/pt-br/azure/governance/policy/overview
+
+
+POLICY DEFINITIONS 
+https://github.com/Azure/azure-policy
+https://learn.microsoft.com/pt-br/azure/governance/policy/overview
+
+
+RBAC
+https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview
+https://www.cloudflare.com/pt-br/learning/access-management/role-based-access-control-rbac/
 
 
 MICROSOFT COMMUNITY: https://learn.microsoft.com/en-us/community/learn-with/lucas-silva
