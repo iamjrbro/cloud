@@ -1,6 +1,6 @@
 COMPLETE MICROSOFT GUIDE: https://www.udemy.com/course/microsoft-azure-from-zero-to-hero-the-complete-guide/learn/lecture/24184898?start=0#overview
 
-ENTRA ID: 
+ENTRA ID
 https://learn.microsoft.com/pt-pt/entra/identity/role-based-access-control/manage-roles-portal
 https://learn.microsoft.com/pt-br/entra/identity/role-based-access-control/custom-overview
 https://learn.microsoft.com/pt-br/entra/identity/role-based-access-control/permissions-reference
@@ -39,6 +39,8 @@ VIRTUAL NETWORK GATEWAY: https://learn.microsoft.com/pt-br/azure/vpn-gateway/vpn
 VIRTUAL WAN 
 https://learn.microsoft.com/pt-br/azure/virtual-wan/virtual-wan-about
 https://youtu.be/f-GyAURZWzg
+LOAD BALANCER: https://learn.microsoft.com/pt-br/azure/load-balancer/load-balancer-overview
+APLICATION GATEWAY: https://learn.microsoft.com/pt-br/azure/application-gateway/overview
 
 
 MICROSOFT COMMUNITY: https://learn.microsoft.com/en-us/community/learn-with/lucas-silva
