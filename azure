@@ -33,6 +33,10 @@ RBAC
 https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview
 https://www.cloudflare.com/pt-br/learning/access-management/role-based-access-control-rbac/
 
+PIM/PAM
+PAM: https://www.microsoft.com/pt-br/security/business/security-101/what-is-privileged-access-management-pam
+PIM: https://www.microsoft.com/pt-br/security/business/security-101/what-is-privileged-access-management-pam
+
 VNET: https://learn.microsoft.com/pt-br/azure/virtual-network/virtual-networks-overview
 TRAFFIC MANAGER: https://learn.microsoft.com/pt-br/azure/traffic-manager/traffic-manager-overview
 VIRTUAL NETWORK GATEWAY: https://learn.microsoft.com/pt-br/azure/vpn-gateway/vpn-gateway-about-vpngateways
@@ -46,4 +50,5 @@ FQDN (fully qualified domain name): https://learn.microsoft.com/pt-br/azure/virt
 MICROSOFT COMMUNITY: https://learn.microsoft.com/en-us/community/learn-with/lucas-silva
 MICROSOFT PURVIEW: https://news.microsoft.com/pt-br/o-futuro-da-conformidade-e-da-governanca-de-dados-apresentando-o-microsoft-purview/
 SKU: https://www.skillvertex.com/blog/what-is-sku-in-azure/
-IP? https://learn.microsoft.com/pt-br/azure/virtual-network/ip-services/public-ip-addresses
+IP: https://learn.microsoft.com/pt-br/azure/virtual-network/ip-services/public-ip-addresses
+PRIVATE LINK: https://learn.microsoft.com/pt-br/azure/private-link/private-link-overview
