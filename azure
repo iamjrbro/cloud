@@ -46,9 +46,14 @@ https://youtu.be/f-GyAURZWzg
 LOAD BALANCER: https://learn.microsoft.com/pt-br/azure/load-balancer/load-balancer-overview
 APLICATION GATEWAY: https://learn.microsoft.com/pt-br/azure/application-gateway/overview
 FQDN (fully qualified domain name): https://learn.microsoft.com/pt-br/azure/virtual-machines/create-fqdn
-
-MICROSOFT COMMUNITY: https://learn.microsoft.com/en-us/community/learn-with/lucas-silva
-MICROSOFT PURVIEW: https://news.microsoft.com/pt-br/o-futuro-da-conformidade-e-da-governanca-de-dados-apresentando-o-microsoft-purview/
 SKU: https://www.skillvertex.com/blog/what-is-sku-in-azure/
 IP: https://learn.microsoft.com/pt-br/azure/virtual-network/ip-services/public-ip-addresses
 PRIVATE LINK: https://learn.microsoft.com/pt-br/azure/private-link/private-link-overview
+
+PEERING
+https://learn.microsoft.com/pt-br/azure/virtual-network/virtual-network-peering-overview
+https://learn.microsoft.com/pt-br/azure/vpn-gateway/vpn-gateway-peering-gateway-transit
+
+MICROSOFT COMMUNITY: https://learn.microsoft.com/en-us/community/learn-with/lucas-silva
+MICROSOFT PURVIEW: https://news.microsoft.com/pt-br/o-futuro-da-conformidade-e-da-governanca-de-dados-apresentando-o-microsoft-purview/
+
