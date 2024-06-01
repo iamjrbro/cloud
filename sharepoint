@@ -1,0 +1,37 @@
+https://learn.microsoft.com/pt-br/credentials/certifications/exams/ms-900/practice/assessment?assessment-type=practice&assessmentId=50
+https://support.microsoft.com/pt-br/office/criar-um-site-do-sharepoint-online-9fdfbbc4-1675-4d40-8df4-93b1340d5f34
+
+1. Sites de Comunicação
+
+Objetivo: Compartilhar informações amplamente em uma organização.
+Uso: Utilizado para divulgar notícias, relatórios, eventos e outras informações para um público amplo.
+
+Características
+
+Design: Enfatiza uma aparência visualmente atraente e fácil navegação.
+Layout: Vem com layouts de página prontos, como Hero, que permite destacar conteúdos importantes com imagens e links.
+Permissões: Normalmente, a maioria dos usuários tem permissões de leitura, enquanto poucos têm permissões de edição.
+Integração: Menos integração com ferramentas do Office 365 como Planner, Teams ou Yammer, focando mais na apresentação de conteúdo estático.
+
+2. Sites de Equipe
+
+Objetivo: Facilitar a colaboração entre membros de uma equipe.
+Uso: Utilizado por grupos de trabalho para gerenciar projetos, compartilhar documentos, colaborar em tarefas e comunicarem-se.
+
+Características
+
+Design: Centrado na colaboração, com ferramentas para edição de documentos e comunicação rápida.
+Layout: Inclui bibliotecas de documentos, listas de tarefas, calendário compartilhado, e outras ferramentas de colaboração.
+Permissões: Mais permissões de edição e controle compartilhado, permitindo que todos os membros da equipe contribuam.
+Integração: Forte integração com outras ferramentas do Office 365 como Microsoft Teams, Planner e OneNote.
+
+3. Hub Sites
+Objetivo: Conectar e organizar vários sites de comunicação e de equipe.
+Uso: Utilizado para unificar diferentes sites com um tema ou propósito comum, facilitando a navegação e a governança.
+
+Características
+
+Design: Serve como ponto central de agregação de notícias, eventos e atividade de diversos sites associados.
+Layout: Proporciona um menu de navegação comum e pesquisa unificada para todos os sites associados.
+Permissões: As permissões não são herdadas dos hub sites; cada site associado mantém suas próprias permissões.
+Integração: Facilita a consistência na aplicação de temas e logotipos, além de consolidar notícias e eventos de sites associados.
