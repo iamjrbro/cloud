@@ -1,0 +1,25 @@
+CLONAR WEB APP: https://www.youtube.com/watch?v=lll6bakTxaI
+
+ALTERAR URL ARQUIVO WEB CONFIG 
+
+1. Acessar o Web App no Azure:
+
+    Vá ao portal do Azure.
+    Acesse a instância do Web App que você deseja modificar.
+    Usar o Kudu Console (Advanced Tools):
+
+      No painel do Web App, procure a seção "Development Tools" e clique em "Advanced Tools" (ou "Kudu").
+      Clique em "Go" para abrir a interface do Kudu.
+      Navegar até o diretório e editar o web.config:
+
+      No Kudu, vá até a seção "Debug console" e selecione "CMD" ou "PowerShell".
+      Navegue até o diretório onde o web.config está localizado. Normalmente, isso estará em site\wwwroot.
+      Use o comando vi web.config ou qualquer outro editor de sua escolha para abrir o arquivo. Você também pode baixar o arquivo, editá-lo localmente e depois enviá-lo de volta.
+
+2. Modificar a URL:
+
+    Localize a seção no web.config que precisa ser alterada. Isso pode variar dependendo da estrutura do seu arquivo, mas geralmente você estará procurando algo como <appSettings>, <system.webServer>, ou <rewrite> para encontrar a URL a ser alterada.
+    Faça a modificação necessária na URL.
+    Salvar e verificar:
+
+      Salve as alterações no web.config (as vezes, pode ser necessário reiniciar o Web App)
