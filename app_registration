@@ -1,0 +1,73 @@
+https://www.youtube.com/watch?v=sXSmKHRJFtI
+
+APP REGISTRATION
+
+- processo que cria uma identidade de aplicação no Azure Active Directory (Azure AD). Esta identidade permite que a aplicação interaja com recursos no Azure de forma segura, utilizando uma identidade conhecida e gerenciada pelo Azure AD. Aqui estão os principais pontos sobre o "App Registration":
+
+    Identidade da Aplicação: Ao registrar um aplicativo, você cria uma identidade de aplicação no Azure AD. Esta identidade pode ser usada para autenticar o aplicativo e obter tokens para acessar APIs protegidas pelo Azure AD.
+    
+    Client ID e Client Secret: Durante o registro, o Azure AD gera um "Client ID" (Identificador do Cliente) e você pode criar um "Client Secret" (Segredo do Cliente). Esses elementos são usados pela aplicação para se autenticar junto ao Azure AD.
+    
+    Redirecionamento de URLs: Durante o processo de registro, você especifica as URLs de redirecionamento que o Azure AD usará após a autenticação bem-sucedida. Estas URLs são parte do fluxo de autenticação OAuth 2.0/OpenID Connect.
+    
+    Permissões e Consentimentos: Ao registrar um aplicativo, você pode definir as permissões que a aplicação necessita para acessar APIs ou recursos protegidos. Essas permissões podem exigir o consentimento do usuário ou do administrador.
+    
+    Certificados e Segredos: Você pode configurar certificados e segredos que a aplicação utilizará para se autenticar com o Azure AD.
+    
+    API Permissions: Você pode configurar quais APIs a aplicação registrada pode acessar e com quais permissões.
+
+
+Passos para Registrar um Aplicativo no Azure:
+1. Acesse o Azure Portal e navegue até o Azure Active Directory.
+2. Selecione "App registrations" no menu lateral.
+3. Clique em "New registration" para iniciar o processo de registro de uma nova aplicação.
+4. Preencha os detalhes do aplicativo, como o nome, o tipo de suporte de conta e as URLs de redirecionamento.
+5. Clique em "Register" para concluir o processo.
+
+Utilizações Comuns
+    Autenticação de Aplicações Web: Para que as aplicações web possam autenticar usuários usando Azure AD.
+    API Access: Para permitir que aplicativos de terceiros ou serviços internos acessem APIs protegidas.
+    Automação e Scripts: Para permitir que scripts automatizados ou serviços backend acessem recursos no Azure.
+
+
+https://www.youtube.com/watch?v=Iq_a1Qlb3jE
+
+SECRET & CERTIFICATE
+
+"Secret" (Segredo) e "Certificate" (Certificado) são métodos usados para autenticar uma aplicação no Azure Active Directory (Azure AD). Eles fornecem um meio seguro para a aplicação provar sua identidade quando interagindo com o Azure AD e acessando recursos protegidos. Aqui estão as definições e diferenças entre os dois:
+
+  Secret (Segredo)
+  Um segredo é um valor gerado que atua como uma senha para a aplicação. Ele é usado para autenticar a aplicação junto ao Azure AD.
+
+    Criação: Durante a configuração de uma App Registration, você pode gerar um Client Secret. O segredo é geralmente uma string longa e complexa.
+    Uso: A aplicação usa o Client Secret junto com o Client ID para obter um token de autenticação do Azure AD.
+    Segurança: Segredos devem ser armazenados de maneira segura e não devem ser expostos em código-fonte ou armazenados de forma insegura. Eles têm uma validade configurável e podem expirar, exigindo a criação de um novo segredo.
+
+  Certificate (Certificado)
+  Um certificado é uma forma mais segura de autenticação baseada em criptografia. Ele envolve a utilização de um par de chaves (pública e privada).
+
+Criação: Certificados podem ser gerados por uma autoridade certificadora ou autoassinados. O certificado público é carregado no Azure AD, enquanto a chave privada é mantida em segurança pela aplicação.
+Uso: A aplicação usa a chave privada para assinar um token JWT (JSON Web Token), que é enviado ao Azure AD. O Azure AD verifica a assinatura usando o certificado público armazenado.
+Segurança: Certificados são considerados mais seguros que segredos, pois a chave privada nunca é transmitida. Eles são menos suscetíveis a ataques como a captura de senhas. Certificados também têm uma validade e precisam ser renovados periodicamente.
+
+
+      CASOS DE USO
+
+          Secret: Ideal para cenários onde a simplicidade é mais importante e o nível de segurança exigido é moderado. Útil para aplicações de pequeno porte ou para desenvolvimento e teste.
+          Certificate: Recomendado para aplicações em produção e ambientes onde a segurança é crítica. Certificados são mais seguros e resistentes a comprometimentos.
+            
+Configurando um Secret
+
+            1. No Azure Portal, vá para a App Registration desejada.
+            2. Navegue até a seção "Certificates & secrets".
+            3. Em "Client secrets", clique em "New client secret".
+            4. Defina uma descrição e uma validade, então clique em "Add".
+            5. Copie o valor do segredo gerado e armazene-o de forma segura
+
+Configurando um Certificate
+
+            1. No Azure Portal, vá para a App Registration desejada.
+            2. Navegue até a seção "Certificates & secrets".
+            3. Em "Certificates", clique em "Upload certificate".
+            4. Selecione o arquivo do certificado público (normalmente com a extensão .cer) e faça o upload.
+            5. A aplicação deve usar a chave privada correspondente para autenticar.
