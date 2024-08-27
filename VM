@@ -2,3 +2,9 @@ Auto-Start/Auto-Shutdown
 
 https://learn.microsoft.com/pt-br/shows/it-ops-talk/auto-shutdown-and-auto-start-an-azure-vm
 https://learn.microsoft.com/en-us/azure/virtual-machines/auto-shutdown-vm?tabs=portal
+
+
+
+Criação
+Cria, verifica questao de discos, vnet, subnet, nsg, peering, conecta na maquina, verifica onde a mesma ta alocada (ip da mesma, ipconfig /all), altera dominio se necessario)
+https://learn.microsoft.com/pt-br/azure/virtual-machines/custom-domain
