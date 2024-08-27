@@ -8,3 +8,4 @@ https://learn.microsoft.com/en-us/azure/virtual-machines/auto-shutdown-vm?tabs=p
 Criação
 Cria, verifica questao de discos, vnet, subnet, nsg, peering, conecta na maquina, verifica onde a mesma ta alocada (ip da mesma, ipconfig /all), altera dominio se necessario)
 https://learn.microsoft.com/pt-br/azure/virtual-machines/custom-domain
+ao fazer isos, pra ingressar, usa a admin
