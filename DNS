@@ -1,0 +1,28 @@
+REDIRECIONAMENTO DE APONTAMENTOS
+
+https://learn.microsoft.com/pt-br/windows-server/networking/dns/zone-types
+
+Não é possível inserir uma zona de DNS dentro de outra diretamente. As zonas de DNS são unidades de autoridade, e cada zona é responsável por uma parte distinta do namespace do DNS. No entanto, você pode delegar uma subzona (subdomínio) para outra zona de DNS.
+
+Por exemplo, se você tem a zona de DNS `example.com`, pode delegar a gestão de `sub.example.com` para outra zona de DNS. Isso envolve criar registros NS na zona `example.com` que apontem para os servidores de nomes responsáveis pela zona `sub.example.com`.
+
+Isso permite que a subzona tenha uma administração separada, mas ainda esteja logicamente conectada à zona pai.
+
+
+
+
+ARQUIVOS SPF
+
+arquivos SPF só pode ter configurado um, por padrão para o e-mail funcionar o que existem configurado nos DNS são iguais a esse, v=spf1 include:spf.protection.outlook.com -all  quando é solicitado realizar includes no spf igual foi solicitado pela rdstation ficaria dessa forma:  v=spf1 include:_spf.rdstation.com.br include:sendgrid.net include:spf.protection.outlook.com ~all
+ 
+Veja que toda vez que solicitarem include é só incluir entre os v=spf1 e ~all.  
+
+
+ex: v=spf1
+include:_spf.rdstation.com.br include:sendgrid.net include:spf.protection.outlook.com ~all
+
+v=spf1 include:spf.protection.outlook.com include:_spf.rdstation.com.br include:sendgrid.net ~all
+
+
+
+
