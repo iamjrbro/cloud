@@ -9,3 +9,7 @@ Criação
 Cria, verifica questao de discos, vnet, subnet, nsg, peering, conecta na maquina, verifica onde a mesma ta alocada (ip da mesma, ipconfig /all), altera dominio se necessario)
 https://learn.microsoft.com/pt-br/azure/virtual-machines/custom-domain
 ao fazer isos, pra ingressar, usa a admin
+
+
+EXPANDIR DISCO
+https://learn.microsoft.com/pt-br/windows-server/storage/disk-management/extend-a-basic-volume
